@@ -1,0 +1,36 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Contact
+  order: 2
+---
+
+<h1>Contact</h1>
+<form name="contact" method="POST" data-netlify="true">
+    <p>
+        <label>
+            Your Name:
+            <input type="text" name="name" placeholder="what I'll call you" required />
+        </label>
+    </p>
+    <p>
+        <label>
+            Your <a href="https://pronouns.org">Pronouns</a>:
+            <input type="text" name="pronoun" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Your Email:
+            <input type="email" name="email" placeholder="only needed for replies" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Message: <textarea name="message" required></textarea>
+        </label>
+    </p>
+    <p>
+        <button type="submit">Send</button>
+    </p>
+</form>
