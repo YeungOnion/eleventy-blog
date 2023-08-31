@@ -15,8 +15,11 @@ eleventyNavigation:
     </p>
     <p>
         <label>
-            Your <a href="https://pronouns.org">Pronouns</a>:
-            <input type="text" name="pronoun" />
+            Your Pronouns<sup><a href="https://pronouns.org">?</a></sup>:
+            <input type="text"
+                   name="pronoun"
+                   placeholder="format: he/him[/his]"
+                   pattern="^\w+(?:\/\w+){1,2}$" />
         </label>
     </p>
     <p>
