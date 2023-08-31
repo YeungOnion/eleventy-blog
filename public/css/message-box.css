@@ -10,6 +10,9 @@
 .message-box ol {
 	margin-top: 0;
 }
+.message-box ul {
+	margin-top: 0;
+}
 
 @media (prefers-color-scheme: dark) {
 	.message-box {
