@@ -2,8 +2,7 @@
 
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v2.0 release](https://www.11ty.dev/blog/eleventy-v2/)).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/802669dd-d5f8-4d49-963d-6d57b257c2a2/deploy-status)](https://app.netlify.com/sites/eleventy-base-blog/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef86a462-f622-4f23-9358-4cebc0b2d9d0/deploy-status)](https://app.netlify.com/sites/yeungonion/deploys)
 ## Getting Started
 
 * [Want a more generic/detailed getting started guide?](https://www.11ty.dev/docs/getting-started/)
