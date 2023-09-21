@@ -1,0 +1,15 @@
+{%- css %}.worklist { counter-reset: start-from {{ (workslistCounter or workslist.length) + 1 }} }{% endcss %}
+<ul reversed class="worklist">
+    {% for work in workslist | reverse %}
+        <li class="worklist-item{% if work.url == url %} worklist-item-active{% endif %}">
+            <a href="{{ work.url }}" class="worklist-link">
+                {% if work.data.title %}
+                    {{ work.data.title }}
+                {% else %}
+                    <code>{{ work.url }}</code>
+                {% endif %}
+            </a>
+            <time class="worklist-date" datetime="{{ work.date | htmlDateString }}">{{ work.date | readableDate("LLLL yyyy") }}</time>
+        </li>
+    {% endfor %}
+</ul>
