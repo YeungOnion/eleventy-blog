@@ -1,6 +1,6 @@
 module.exports = {
 	title: "YeungOnion's Blog",
-	url: "https://iridescent-fox-a813a1.netlify.app/",
+	url: "https://yeungonion.netlify.app/",
 	language: "en",
 	description: "Writing about my move into software engineering, eventually hoping to be writing as my experience as a software engineer",
 	author: {
