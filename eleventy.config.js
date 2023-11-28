@@ -13,6 +13,9 @@ const pluginImages = require("./eleventy.config.images.js");
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
+	if(process.env.CI) {
+		eleventyConfig.ignores.add("**/_*.md");
+	}
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/",
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
